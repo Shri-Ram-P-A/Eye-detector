@@ -33,6 +33,7 @@ if file_path:
     # Display the result
     cv2.imshow("Eye Detection Result", image)
     cv2.waitKey(0)
+
 # If not selected the photo it will appears
 else:
     print("No file selected.")
